@@ -1,0 +1,111 @@
+body {
+  font-family: sans-serif;
+  background-color: #daf1e6;
+}
+
+header {
+  background-image: url("http://farm3.staticflickr.com/2867/12212336015_8c547726d8_h.jpg");
+  padding-top: 20px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+
+}
+.nav a {
+  text-decoration: none;
+  color:#ffffff;
+  margin-left: 30px;
+
+}
+nav {
+  height: 375px;
+  text-align: center;
+}
+
+nav a:hover {
+  color: red;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px yellow;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  color:#ffffff;
+  font-family: 'Architects Daughter', cursive;
+  padding-bottom: 15px;
+  background-image: url("https://urbanitesocialites.files.wordpress.com/2010/06/medium-wood-horizontal-background.jpg");
+
+}
+img {
+  height: 300px;
+  width: 400px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-width: medium;
+  border-style: solid;
+  box-shadow: 10px 10px 20px;
+}
+
+.main{
+  display:flex;
+  justify-content: center;
+  margin: 20px 20px 10px 20px;
+}
+
+p {
+  padding: 0 50px 0 0;
+}
+
+div {
+  clear:both;
+}
+
+h2 a {
+  text-decoration: none;
+  color:darkgreen;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5em;
+}
+
+h2 a:hover{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+.onethird {
+  max-width: 30%;
+}
+
+footer{
+  clear:both;
+  background-color: darkgreen;
+  color:#ffffff;
+  text-align: center;
+  height:100px;
+  padding-top:40px;
+}
+
+.button {
+    background-color: darkgreen;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 20px 20px 20px 20px;
+}
+.button a{
+  color:white;
+  text-decoration: none;
+}
+.button a:hover{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.map img {
+  box-shadow: none;
+}
